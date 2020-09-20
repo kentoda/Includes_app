@@ -1,0 +1,5 @@
+<% @recipis.each do|recipi| %>
+<%= recipi.name %>
+<small><%= recipi.user.email %></small>
+<br>
+<% end %>
